@@ -19,3 +19,11 @@ npm install ph-area-code
 ## License
 
 MIT
+
+
+## Usage
+
+```typescript
+import { } from 'ph-area-code';
+// See API section for available functions
+```
