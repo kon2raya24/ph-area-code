@@ -1,3 +1,6 @@
+
+// Type exports for consumers
+// Add specific types as needed
 const AREA_CODES: Record<string, string> = {
   "2": "Metro Manila", "32": "Cebu", "33": "Iloilo", "34": "Bacolod",
   "35": "Baguio", "36": "Capiz/Antique", "38": "Tagbilaran", "42": "Lucena",
