@@ -11,6 +11,10 @@ const AREA_CODES: Record<string, string> = {
   "77": "Ilocos", "78": "Cagayan", "82": "Davao", "83": "General Santos",
   "84": "Cotabato", "85": "Agusan", "86": "Surigao", "88": "Butuan",
 };
+/**
+ * getAreaName
+ * @param code
+ */
 export function getAreaName(code: string): string {
   if (code === null || code === undefined) throw new Error("Invalid input");
   const cleaned = code.replace(/^0/, "").trim();
