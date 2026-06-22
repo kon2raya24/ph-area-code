@@ -12,6 +12,7 @@ const AREA_CODES: Record<string, string> = {
   "84": "Cotabato", "85": "Agusan", "86": "Surigao", "88": "Butuan",
 };
 export function getAreaName(code: string): string {
+  if (code === null || code === undefined) throw new Error("Invalid input");
   const cleaned = code.replace(/^0/, "").trim();
   return AREA_CODES[cleaned] || "Unknown area";
 }
